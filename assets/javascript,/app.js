@@ -1,14 +1,19 @@
 
 window.onload = function() {
+
+   $("#button").click(function(){
+       $("#questionAnswer").slideDown("slow");
+   })
    
     $("#button").on("click", start);
+
   };
   
   
   var intervalId;
   
   var clockRunning = false;
-  var time = 300;
+  var time = 60;
   
   
   function start() {
@@ -25,7 +30,7 @@ window.onload = function() {
   
    
     var converted = timeConverter(time);
-    console.log(converted);
+   
   
     // DONE: Use the variable we just created to show the converted time in the "display" div.
     $("#display").text(converted);
@@ -49,3 +54,5 @@ window.onload = function() {
     return minutes + ":" + seconds;
   }
   
+//______________________________________Questions now______________________________//
+

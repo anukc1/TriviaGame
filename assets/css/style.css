@@ -1,16 +1,31 @@
-.container {
-    margin: auto;
-    padding: auto;
-    width: 100%;
-    
+body {
+    background-image: url("../images/green_cup.png");
 }
 
 
 
+.container {
+    margin: auto;
+    padding: auto;
+    
+
+}
+
+#questionAnswer, #button {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #questionAnswer {
+    padding: 50px;
+    display: none;
+
+  }
 
 
-
-.buttonclass {
+.button {
     margin: auto;
     padding: 5px;
 }
