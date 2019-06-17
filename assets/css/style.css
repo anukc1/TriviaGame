@@ -11,20 +11,19 @@ body {
 
 }
 
+.animal {
+
+    background-color: olivedrab;
+    
+}
 
 
-/* #questionAnswer, #button {
-    padding: 5px;
-    text-align: left;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
-  }
-  
-  #questionAnswer {
-    padding: 50px;
-    display: none;
+.three {
 
-  } */
+
+    background-color: darkgreen;
+    
+}
 
 
 .btn {
@@ -44,7 +43,3 @@ body {
 }
 
 
-#title {
-
-    background-image: url("assets/images/Background.png")
-}
