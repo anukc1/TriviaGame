@@ -8,34 +8,29 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Animal Trivia</title>
-
-
 </head>
 
 <body>
 
+    <!--CONTAINER-->
     <div class="container text-center">
 
+        
         <div class="row one">
-
 
             <div class="col-md-12 animal border border-success" id="title">
 
                 <h1 class="title">Animals Trivia Game</h1>
 
-
                 <div id="display">01:00</div>
-
 
             </div>
 
         </div>
-
+        <!--START BUTTON-->
         <div class="row two">
-
 
             <div class="col-md-12 buttonclass" id="start">
 
@@ -43,69 +38,24 @@
             </div>
 
 
-
         </div>
-
-
-
+<div id="questions"></div>
+        <!--QUESTION AND ANSWERS-->
         <div class="row three">
 
-
             <div class="col-md-12 questions" id="questionAnswer">
-
-
-                <div class="col-md-12" id="questiOnone">
-
-                    1.Three-toed Sloth is the slowest animal in the world.
-                    <br>
-                    <input type="radio" name="Q1a" value="True"> True<br>
-                    <input type="radio" name="Q1a" value="False"> False<br>
-
-                </div>
-
-                <div class="col-md-12" id="questionTwo">
-
-                    2.A snail can sleep for 2 years.
-                    <br>
-                    <input type="radio" name="Q2a" value="True"> True<br>
-                    <input type="radio" name="Q2a" value="False"> False<br>
-                </div>
-
-                <div class="col-md-12" id="questionThree">
-
-                    3.Four of the six legs of an ant are attached to the thorax.
-                    <br>
-                        <input type="radio" name="Q3a" value="False"> True<br>
-                        <input type="radio" name="Q3a" value="True"> False<br>
-                </div>
-
-                <div class="col-md-12" id="questionFour">
-
-                    4.Rabbits are born blind.
-                    <br>
-                    <input type="radio" name="Q3a" value="True"> True<br>
-                    <input type="radio" name="Q3a" value="False"> False<br>
-
-
-
-                </div>
-
-
-                <div class="col-md-12 buttonclass" id="submit">
-
-                        <button type="button" class="btn btn-outline-danger btn-lg" id="submit">Submit</button>
-                    </div>
-
-
+  
             </div>
-
 
         </div>
 
-        
+
     </div>
 
-    <script src="assets/javascript,/app.js"></script>
+    <!--Your scrips are going here or I'll make sing Set fire to the rain by Adele-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
